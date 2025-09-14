@@ -2,12 +2,12 @@
   {
     "kernelSource": {
       "name": "bxsj-KernelSU-Proton-release",
-      "repo": "https://github.com/NRanjan-17/kernel_xiaomi_mido",
+      "repo": "https://github.com/IkyA0/kernel_xiaomi_mido",
       "branch": "thirteen",
       "device": "mido",
       "defconfig": "mido_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -39,7 +39,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/NRanjan-17/AnyKernel3",
+      "repo": "https://github.com/IkyA0/AnyKernel3",
       "branch": "mido"
     }
   }
